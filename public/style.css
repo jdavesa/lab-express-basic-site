@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    font-family: roboto;
+    margin: 0;
+
+    background-color: rgb(27, 27, 27);
+    background: url("5704531.jpeg");
+    background-size: cover;
+}
+
+#navbar{
+   
+    background-color: white;
+    display:flex;
+    justify-content: flex-start;
+    align-items:baseline;
+    border-bottom: 2px solid rgb(27, 27, 27);
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.16);
+    height: 70px;
+    padding: 0 50px;
+    
+}
+
+h1{
+    padding-top: 10px;
+    font-weight: 800;
+    font-size: 3rem;
+    color: rgb(27, 27, 27)
+}
+
+#menu{
+    width: 30%;
+    
+    background-color: none;
+}
+
+#menu ul{
+    padding-top: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+#menu ul li a{
+    
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+#foto{
+    background: url("./Nike_x_Off_White_Air_Zoom_Tempo_Black-Scream_Green_-_Feature.jpeg");
+    background-size: cover;
+    height: 900px;
+  
+}
+
+#carouselExampleControls{
+    height: 700px;
+}
+
+.d-block{
+    width: 1100px;
+    height: 750px;
+    margin: auto;
+}
+
+
+#picture{
+    width: 1100px;
+    margin: auto;
+}
+
+#picture img{
+    width: 100%;
+}
+
+
